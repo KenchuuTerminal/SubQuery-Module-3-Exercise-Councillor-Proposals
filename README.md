@@ -2,11 +2,11 @@
 
 SubQuery powers the next generation of Polkadot dApps by allowing developers to extract, transform and query blockchain data in real time using GraphQL. In addition to this, SubQuery provides production quality hosting infrastructure to run these projects in.
 
-# SubQuery Example - Account transfers
+# SubQuery Example - Councillor Proposals
 
-This subquery example indexes the amount transferred of each account and it is an example of a 1-many entity relationshp. In other words, one account can have many receiving addresses.
+This subquery example take the starter project and focus on understanding how many-to-many relationships work. We will create a project that allows us to query for the number of votes that councillors have made and how many votes a given proposal has received.
 
-# SubQuery Example - Account transfers : Result
+# SubQuery Example - Councillor Proposals : Result
 ![alt text](https://github.com/TsuyuKenchuu/SubQuery-Module-3-Exercise-Account-Transfer/blob/master/SubQuery-M03-EX2.JPG?raw=true)
      
 #### Install the SubQuery CLI
@@ -36,7 +36,7 @@ yarn install / npm install
 ```
 ## Configure your project
 
-In the starter package, we have provided a simple example of project configuration. You will be mainly working on the following files:
+In the Councillor-Proposals, we have provided a simple example of project configuration. You will be mainly working on the following files:
 
 - The Manifest in `project.yaml`
 ```shell
@@ -191,7 +191,7 @@ Open your browser and head to `http://localhost:3000`.
 
 Finally, you should see a GraphQL playground is showing in the explorer and the schemas that ready to query.
 
-For the `subql-starter` project, you can try to query with the following code to get a taste of how it works.
+For the `Councillor-Proposals` project, you can try to query with the following code to get a taste of how it works.
 
 ````graphql
 {
