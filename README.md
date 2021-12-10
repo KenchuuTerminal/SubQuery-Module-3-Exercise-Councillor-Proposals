@@ -7,7 +7,7 @@ SubQuery powers the next generation of Polkadot dApps by allowing developers to 
 This subquery example take the starter project and focus on understanding how many-to-many relationships work. We will create a project that allows us to query for the number of votes that councillors have made and how many votes a given proposal has received.
 
 # SubQuery Example - Councillor Proposals : Result
-![alt text](https://github.com/TsuyuKenchuu/SubQuery-Module-3-Exercise-Account-Transfer/blob/master/SubQuery-M03-EX2.JPG?raw=true)
+![alt text](https://github.com/TsuyuKenchuu/SubQuery-Module-3-Exercise-Councillor-Proposals/blob/master/SubQuery-M03-EX2.JPG?raw=true)
      
 #### Install the SubQuery CLI
 
